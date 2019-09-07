@@ -1,0 +1,64 @@
+.results-container
+  margin-top: 2rem
+  margin-bottom: 1.5rem
+
+  .results-contents
+    max-width: 55rem
+
+    .list-group
+      .list-group-item
+        margin-bottom: 1rem
+        border: none
+        border-radius: 0
+        padding-bottom: 1.5rem
+        border-bottom: 1px solid #BFBFBF
+        transition: 0.2s
+
+        //&:hover
+          box-shadow: 1px 2px 3px lightgray
+          transition: 0.2s
+
+        > .row
+          &:first-child img
+            border-radius: 4px
+
+          &:last-child
+            p
+              color: #272727
+              font-weight: 200
+              margin-bottom: 0.15rem
+
+            .row
+              > div:last-child
+                display: flex
+                align-items: center
+                color: #272727
+                font-weight: 200
+                margin-bottom: 0.15rem
+
+              &:first-child
+                margin-top: 0.5rem
+                margin-bottom: 0.25rem
+
+                > div:first-child
+                  padding: 0
+
+                  img
+                    height: 30px
+
+              &:last-child
+                > div:first-child
+                  padding: 0
+
+                  img
+                    height: 20px
+
+    .btn-success
+      background-color: #91C24C
+      transition: 0.2s ease
+      border-radius: 20px
+      border: none
+
+      &:hover
+        background-color: #719C35
+        transition: 0.2s ease
