@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Free Food Finder</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md bg-light navbar-light">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="SharEat" width="200px"></img></a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<img src="img/food1-hd.png" class="img-fluid"></img>
+
+<div class="header-container">
+  <div class="container-fluid header-contents">
+    <div class="hero">
+      <p>Food waste?</p>
+      <p>Food share.</p>
+    </div>
+  </div>
+</div>
+
+<div class="search-container">
+  <div class="container-fluid search-contents">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <a href="#"><i class="fa fa-search"></i></a>
+      </div>
+      <input type="text" class="form-control" id="loc" placeholder="Free food near me">
+    </div>
+  </div>
+</div>
+
+<div class="results-container">
+  <div class="container-fluid results-contents">
+    <ul class="list-group">
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-4">
+          <img src="img/food2.png" class="img-fluid" alt="burger"></img>
+        </div>
+        <div class="col-8">
+          <p class="lead">Burgers and Fries</p>
+          <p>@ 36th and Market St.</p>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-1"><img class="img-fluid" src="img/locate.png"></img></div>
+              <div class="col-11">Locate on map</div>
+            </div>
+            <div class="row">
+              <div class="col-1"><img class="img-fluid" src="img/contact.png"></img></div>
+              <div class="col-11">Contact</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-4">
+          <img src="img/food3.png" class="img-fluid" alt="burger"></img>
+        </div>
+        <div class="col-8">
+          <p class="lead">Pasta</p>
+          <p>@ Rittenhouse Square</p>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-1"><img class="img-fluid" src="img/locate.png"></img></div>
+              <div class="col-11">Locate on map</div>
+            </div>
+            <div class="row">
+              <div class="col-1"><img class="img-fluid" src="img/contact.png"></img></div>
+              <div class="col-11">Contact</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-4">
+          <img src="img/food4.png" class="img-fluid" alt="burger"></img>
+        </div>
+        <div class="col-8">
+          <p class="lead">BBQ</p>
+          <p>@ Clark Park</p>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-1"><img class="img-fluid" src="img/locate.png"></img></div>
+              <div class="col-11">Locate on map</div>
+            </div>
+            <div class="row">
+              <div class="col-1"><img class="img-fluid" src="img/contact.png"></img></div>
+              <div class="col-11">Contact</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <button class="btn btn-success btn-block">Share my food</button>
+  </div>
+</div>
+
+</body>
+</html>
