@@ -101,7 +101,6 @@ body {
   max-width: 55rem; }
   .header-container .header-contents .hero {
     margin-top: -20rem;
-    margin-bottom: 10rem;
     font-size: 3rem;
     color: white;
     text-shadow: 2px 2px #333; }
@@ -110,7 +109,8 @@ body {
   .header-container .header-contents {
     text-align: left; } }
 .search-container .search-contents {
-  max-width: 55rem; }
+  max-width: 55rem;
+  margin-top: 10rem; }
   .search-container .search-contents .form-group {
     margin-bottom: 0; }
   .search-container .search-contents .input-group {
@@ -185,3 +185,27 @@ body {
       .results-container .results-contents .btn-success:hover {
         background-color: #719C35;
         transition: 0.2s ease; }
+
+.form-container {
+  margin-top: 15rem; }
+  .form-container .form-contents input {
+    border: 0.5px solid #000; }
+  .form-container .form-contents .btn-outline-success {
+    background-color: rgba(145, 194, 76, 0.19);
+    border-radius: 15px;
+    border: 0.5px solid #44813E;
+    color: #44813E;
+    transition: 0.2s ease; }
+    .form-container .form-contents .btn-outline-success:hover {
+      background-color: #F0FAEB;
+      transition: 0.2s ease; }
+  .form-container .form-contents .btn-success {
+    margin-top: 1rem;
+    background-color: #91C24C;
+    transition: 0.2s ease;
+    border-radius: 20px;
+    border: none;
+    padding: 0.8rem; }
+    .form-container .form-contents .btn-success:hover {
+      background-color: #719C35;
+      transition: 0.2s ease; }

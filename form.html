@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Free Food Finder</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <script src="index.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md bg-light navbar-light">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="SharEat" width="200px"></img></a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <div id="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Giving Away Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<img src="img/food1-hd.png" class="img-fluid"></img>
+
+<div class="header-container">
+  <div class="container-fluid header-contents">
+    <div class="hero">
+      <p>Sharing my food</p>
+    </div>
+  </div>
+</div>
+
+<div class="form-container">
+  <div class="form-contents">
+    <div class="form-group">
+      <label for="food-type">Food Type:</label>
+      <input type="text" class="form-control" id="food-type" placeholder="What food are you giving away?">
+    </div>
+    <div class="form-group">
+      <label for="loc">Location:</label>
+      <input type="text" class="form-control" id="loc" placeholder="Where are you located?">
+    </div>
+    <div class="form-group">
+      <label for="contact">Contact Info:</label>
+      <input type="text" class="form-control" id="contact" placeholder="Type your numbers here?">
+    </div>
+    <div class="form-group">
+      <label for="contact">Upload an image</label> <br />
+      <input type="file" name="pic" accept="image/*">
+    </div>
+    <button class="btn btn-outline-success">Submit</button>
+    <button class="btn btn-success btn-block">Looking for free food?</button>
+  </div>
+</div>
+
+</body>
+</html>
